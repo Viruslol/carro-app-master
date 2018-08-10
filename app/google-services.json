@@ -1,0 +1,130 @@
+{
+  "project_info": {
+    "project_number": "692568778416",
+    "firebase_url": "https://appvideojuegosfb.firebaseio.com",
+    "project_id": "appvideojuegosfb",
+    "storage_bucket": "appvideojuegosfb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692568778416:android:6f16de5367d70c8f",
+        "android_client_info": {
+          "package_name": "cl.frabarz.carro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "692568778416-tk9vkvtuhhp1tnfopqoqu86839ud6pgg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cl.frabarz.carro",
+            "certificate_hash": "1ac7f2fb34397b5576f65b99939ac9ec0aca13c6"
+          }
+        },
+        {
+          "client_id": "692568778416-3gnqj7mog89o4imln4c0sc685g3vd8b9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0jSX6obvVkFc75TPkpuoZuxcVHdZ1Mmg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "692568778416-3gnqj7mog89o4imln4c0sc685g3vd8b9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692568778416:android:c67df38485a40052",
+        "android_client_info": {
+          "package_name": "com.example.viruslol.androidfb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "692568778416-u6kn50441hit6m16pilg4qpuhostcq0o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.viruslol.androidfb",
+            "certificate_hash": "1ac7f2fb34397b5576f65b99939ac9ec0aca13c6"
+          }
+        },
+        {
+          "client_id": "692568778416-3gnqj7mog89o4imln4c0sc685g3vd8b9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0jSX6obvVkFc75TPkpuoZuxcVHdZ1Mmg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "692568778416-3gnqj7mog89o4imln4c0sc685g3vd8b9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692568778416:android:74574acf55061e28",
+        "android_client_info": {
+          "package_name": "com.example.viruslol.appvideojuego"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "692568778416-3gnqj7mog89o4imln4c0sc685g3vd8b9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0jSX6obvVkFc75TPkpuoZuxcVHdZ1Mmg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

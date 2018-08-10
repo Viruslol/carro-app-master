@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Tienda</string>
+
+    <string name="action_login">Iniciar sesión</string>
+    <string name="action_register">Regístrate</string>
+    <string name="action_doregister">Registrarme</string>
+    <string name="action_resetpswd">Recuperar contraseña</string>
+    <string name="action_settings">Opciones</string>
+    <string name="action_search">Buscar</string>
+
+    <string name="action_cart_add">Agregar al carro</string>
+    <string name="action_cart_remove">Eliminar del carro</string>
+
+    <string name="action_wish_add">Agregar al wishlist</string>
+    <string name="action_wish_remove">Eliminar del wishlist</string>
+
+    <string name="action_list_remove">Eliminar</string>
+
+    <string name="user_data_nombre">Nombre</string>
+    <string name="user_data_edad">Edad</string>
+    <string name="user_data_genero">Género</string>
+    <string name="user_data_username">Correo electrónico</string>
+    <string name="user_data_password">Contraseña</string>
+
+    <string-array name="options_genero">
+        <item>Masculino</item>
+        <item>Femenino</item>
+    </string-array>
+
+    <string name="landing_welcome">Tenemos estas ofertas sólo para tí</string>
+
+    <string name="placeholder_precio">1499</string>
+    <string name="currency_clp">$</string>
+</resources>

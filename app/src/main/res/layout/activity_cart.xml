@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Theme.AppCompat.Light.DarkActionBar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <fragment
+        android:id="@+id/cart_listview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:name="cl.frabarz.carro.ProductListFragment" />
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <TableRow>
+            <TextView
+                style="@style/h2"
+                android:layout_weight="1"
+                android:text="Subtotal"/>
+
+            <TextView
+                style="@style/h2"
+                android:text="@string/currency_clp" />
+
+            <TextView
+                android:id="@+id/subtotal"
+                style="@style/h2"
+                android:gravity="end"
+                android:text="@string/placeholder_precio" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:textSize="14sp"
+                android:layout_weight="1"
+                android:text="Despacho" />
+        </TableRow>
+
+        <TableRow>
+            <Spinner
+                android:id="@+id/despacho_selector"
+                style="@style/h2"
+                android:layout_weight="1" />
+
+            <TextView
+                style="@style/h2"
+                android:text="@string/currency_clp" />
+
+            <TextView
+                android:id="@+id/despacho"
+                style="@style/h2"
+                android:gravity="end"
+                android:text="@string/placeholder_precio" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                style="@style/h1"
+                android:layout_weight="1"
+                android:text="Total"/>
+
+            <TextView
+                style="@style/h1"
+                android:text="@string/currency_clp" />
+
+            <TextView
+                android:id="@+id/total"
+                style="@style/h1"
+                android:gravity="end"
+                android:text="@string/placeholder_precio" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

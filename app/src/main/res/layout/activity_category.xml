@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        style="@style/button_carro"
+        android:layout_width="@dimen/carro_btn_width"
+        android:layout_height="@dimen/carro_btn_height"
+        android:onClick="launchCartActivity" />
+
+    <TextView
+        style="@style/activity_titlebar"
+        android:id="@+id/categoria_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/carro_btn_height"
+        android:textSize="22sp"
+        android:text="Categoría" />
+
+    <fragment
+        android:id="@+id/category_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/activity_vertical_titlebar_spacer"
+        android:name="cl.frabarz.carro.ProductListFragment" />
+
+</RelativeLayout>
